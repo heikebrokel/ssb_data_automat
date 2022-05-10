@@ -20,8 +20,8 @@ library(rjstat)
 ## download ssb-data via link
 
 ```{r}
-#ssb_data = read.csv("https://data.ssb.no/api/v0/dataset/list.csv?lang=en")
-#ssb_data = ssb_data %>% row_to_names(row_number = 1)
+ssb_data = read.csv("https://data.ssb.no/api/v0/dataset/list.csv?lang=en")
+ssb_data = ssb_data %>% row_to_names(row_number = 1)
 ```
 
 ## Example from website ssb 
